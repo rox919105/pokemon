@@ -1,0 +1,26 @@
+.mainWrapper{
+    background-color: rgb(255, 251, 0);
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgb(33, 47, 48);
+    padding-top: 0px;
+    padding-bottom: 9px;
+    height: 85%;
+}
+
+.headerTittle {
+    font-size: 300%;
+    font-weight: bold;
+    border: none;
+}
+.link a {
+    color:rgb(62, 16, 187);
+    text-decoration: none;
+}
+.link a:hover {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px -5px 20px 25px rgb(255, 255, 255);
+    color: rgb(0, 184, 46);
+    transition: background-color 0.5s ease-out, box-shadow 0.5s ease-out, color 0.5s ease-out;
+}
